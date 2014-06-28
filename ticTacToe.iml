@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="MobileApp">
+    <configurations>
+      <configuration name="MobileApp" target-platform="Mobile" pure-as="true" main-class="de.dirkkoehler.ticTacToe.TicTacToeMobile" output-file="TicTacToe.swf" output-folder="$MODULE_DIR$/out/production/ticTacToe">
+        <dependencies target-player="11.1">
+          <entries>
+            <entry library-name="starling" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="TheMiner_en" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="flex_sdk_4.6" />
+        </dependencies>
+        <compiler-options>
+          <option name="additionalOptions" value="-advanced-telemetry" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/src/main/config/Demo_Mobile-app.xml" package-file-name="TicTacToe">
+          <files-to-package>
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/main/assets/textures" path-in-package="textures" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/main/assets/audio" path-in-package="audio" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/main/assets/fonts" path-in-package="fonts" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/main/system" path-in-package="." />
+          </files-to-package>
+        </packaging-android>
+        <packaging-ios use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/src/main/config/Demo_Mobile-app.xml" package-file-name="TicTacToe" />
+      </configuration>
+      <configuration name="StarlingDemoMobile" target-platform="Mobile" pure-as="true" main-class="de.dirkkoehler.demo_mobile.src.Demo_Mobile" output-file="StarlingDemoMobile.swf" output-folder="$MODULE_DIR$/out/production/ticTacToe">
+        <dependencies>
+          <entries>
+            <entry library-name="starling" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="flex_sdk_4.6" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/src/main/config/Demo_Mobile-app.xml" package-file-name="StarlingDemoMobile">
+          <files-to-package>
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/main/system" path-in-package="." />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/main/assets/audio" path-in-package="audio" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/main/assets/fonts" path-in-package="fonts" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/main/assets/textures" path-in-package="textures" />
+          </files-to-package>
+        </packaging-android>
+        <packaging-ios package-file-name="StarlingDemoMobile" />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/flash" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/system" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="flex_sdk_4.6" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="robotlegs-framework-v1.5.2" level="project" />
+    <orderEntry type="library" exported="" name="starling" level="project" />
+    <orderEntry type="library" exported="" name="hummingbird" level="project" />
+    <orderEntry type="library" exported="" name="The Miner" level="project" />
+    <orderEntry type="library" exported="" name="TheMiner_en" level="project" />
+  </component>
+</module>
+
